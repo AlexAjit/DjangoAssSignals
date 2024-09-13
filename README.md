@@ -28,8 +28,6 @@ analyze_network_traffic function is called with the sample data.
 
 Yes, Django signals run in the same thread as the caller. so 
 
-<<<<<<< HEAD
-=======
 Summary about the code and explanation in steps - 
 
 1. Imported Libraries
