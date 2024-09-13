@@ -63,5 +63,3 @@ Summary about the code and explanation in steps -
 5. Log Errors
 
 6. **Final Output as per logic and code** - This means that if someone creates a new user account, the account gets saved to the database successfully. Even if something goes wrong in the signal handler (like an error while trying to send a welcome email), that error won't rollback the account creation. The account is saved, but the email sending fails separately, without affecting the account creation. So, the account is created, but the email doesn’t get sent because of the error. 
-
->>>>>>> a27ec932ba4aa408517652a3df0a45db2a213160
