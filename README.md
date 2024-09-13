@@ -16,6 +16,7 @@
 #Explanation of code, means if we runs and execuated the code. recently I have obtained Certified Network Security Practioner from SecOps and also learned lot's of concepts and practical scenerio, so I am using the security example to demonstrate the django signals.
 
 analyze_network_traffic function is called with the sample data.
+
 1 - The function checks if the packet data is malicious and decides to send the suspicious_activity signal.
 
 2- The signal is sent, and the alert_security_team receiver function is called synchronously.
