@@ -33,3 +33,4 @@ analyze_network_traffic function is called with the sample data.
 # Question 2: Do django signals run in the same thread as the caller? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
 
 Yes, Django signals run in the same thread as the caller. so 
+
