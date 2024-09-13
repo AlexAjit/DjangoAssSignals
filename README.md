@@ -74,12 +74,15 @@ When an instance of the Rectangle class is iterated over, we first get its lengt
 
 **Explanation of code and logic implementation.** 
 
-I have defined a class Rectangle to store length and width.
+1: I have defined a class Rectangle to store length and width.
 
-__init__ method to Initializes the class with length and width stored in a dictionary.
-__iter__ method to Makes the class usable in loops.
-__next__ method to Handles looping through the rectangle’s properties (length and width).
-__repr__ method to Formats the rectangle object for display when printed.
+2: __init__ method to Initializes the class with length and width stored in a dictionary.
+
+3: __iter__ method to Makes the class usable in loops.
+
+4: __next__ method to Handles looping through the rectangle’s properties (length and width).
+
+5: __repr__ method to Formats the rectangle object for display when printed.
 
 Example as - Rectangle(50, 75) creates a rectangle, and looping through it prints {'length': 50}, {'width': 75}.
 
