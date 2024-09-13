@@ -19,6 +19,9 @@ analyze_network_traffic function is called with the sample data.
 
 1 - The function checks if the packet data is malicious and decides to send the suspicious_activity signal.
 
+# Question 2: Do django signals run in the same thread as the caller? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
+
+
 2- The signal is sent, and the alert_security_team receiver function is called synchronously.
 
 3- The alert_security_team function executes, printing a message to alert the security team.
