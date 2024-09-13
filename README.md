@@ -66,7 +66,7 @@ Summary about the code and explanation in steps -
 
 6. **Final Output as per logic and code** - This means that if someone creates a new user account, the account gets saved to the database successfully. Even if something goes wrong in the signal handler (like an error while trying to send a welcome email), that error won't rollback the account creation. The account is saved, but the email sending fails separately, without affecting the account creation. So, the account is created, but the email doesn’t get sent because of the error.
 
-# Task - Custom Classes in Python**
+# Task - Custom Classes in Python
 
 An instance of the Rectangle class requires length:int and width:int to be initialized.
 
@@ -74,7 +74,7 @@ We can iterate over an instance of the Rectangle class
 
 When an instance of the Rectangle class is iterated over, we first get its length in the format: {'length': <VALUE_OF_LENGTH>} followed by the width {width: <VALUE_OF_WIDTH>}
 
-**Explanation of code and logic implementation.** 
+**Explanation of code and logic implementation.**
 
 1: I have defined a class Rectangle to store length and width.
 
