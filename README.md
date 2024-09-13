@@ -1,3 +1,5 @@
+**As mentioned in the assignment, The code does not need to be elegant and production ready, we just need to understand your logic. so I had written only logic parts with the proper comments**
+
 # Question 1: By default are django signals executed synchronously or asynchronously? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
 
 In Django, a signal is like a message that you can send to other parts of your code. When something happens in your code, you can send a signal to notify other parts of your code that something has changed.
@@ -62,4 +64,25 @@ Summary about the code and explanation in steps -
 
 5. Log Errors
 
-6. **Final Output as per logic and code** - This means that if someone creates a new user account, the account gets saved to the database successfully. Even if something goes wrong in the signal handler (like an error while trying to send a welcome email), that error won't rollback the account creation. The account is saved, but the email sending fails separately, without affecting the account creation. So, the account is created, but the email doesn’t get sent because of the error. 
+6. **Final Output as per logic and code** - This means that if someone creates a new user account, the account gets saved to the database successfully. Even if something goes wrong in the signal handler (like an error while trying to send a welcome email), that error won't rollback the account creation. The account is saved, but the email sending fails separately, without affecting the account creation. So, the account is created, but the email doesn’t get sent because of the error.
+
+# Task - Custom Classes in Python**
+
+An instance of the Rectangle class requires length:int and width:int to be initialized.
+
+We can iterate over an instance of the Rectangle class 
+
+When an instance of the Rectangle class is iterated over, we first get its length in the format: {'length': <VALUE_OF_LENGTH>} followed by the width {width: <VALUE_OF_WIDTH>}
+
+**Explanation of code and logic implementation.** 
+
+I have defined a class Rectangle to store length and width.
+
+__init__ method to Initializes the class with length and width stored in a dictionary.
+__iter__ method to Makes the class usable in loops.
+__next__ method to Handles looping through the rectangle’s properties (length and width).
+__repr__ method to Formats the rectangle object for display when printed.
+
+Example as - Rectangle(50, 75) creates a rectangle, and looping through it prints {'length': 50}, {'width': 75}.
+
+
