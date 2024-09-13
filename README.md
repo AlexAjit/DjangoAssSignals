@@ -17,6 +17,10 @@
 
 analyze_network_traffic function is called with the sample data.
 1 - The function checks if the packet data is malicious and decides to send the suspicious_activity signal.
+
 2- The signal is sent, and the alert_security_team receiver function is called synchronously.
+
 3- The alert_security_team function executes, printing a message to alert the security team.
+
 5 -The alert_security_team function completes, and the execution of the analyze_network_traffic function resumes.
+
