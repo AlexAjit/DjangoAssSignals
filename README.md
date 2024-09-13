@@ -1,5 +1,7 @@
 **As mentioned in the assignment, The code does not need to be elegant and production ready, we just need to understand your logic. so I had written only logic parts with the proper comments**
 
+**Resources that I have used** : django documentation, geekforgeeks, vscode IDE, and git, github
+
 # Question 1: By default are django signals executed synchronously or asynchronously? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
 
 In Django, a signal is like a message that you can send to other parts of your code. When something happens in your code, you can send a signal to notify other parts of your code that something has changed.
