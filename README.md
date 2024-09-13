@@ -1,11 +1,11 @@
-#Question 1: By default are django signals executed synchronously or asynchronously? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
+# Question 1: By default are django signals executed synchronously or asynchronously? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
 
 #concept
 #In Django, a signal is like a message that you can send to other parts of your code. When something happens in your code, you can send a signal to notify other parts of your code that something has changed.
 
-# So now, Synchronous vs Asynchronous
+#So now, Synchronous vs Asynchronous
 
-# When you send a signal, there are two ways that it can be executed as in Synchronous and Asychronous way
+#When you send a signal, there are two ways that it can be executed as in Synchronous and Asychronous way
 
 #Synchronous means that when an event occurs <example as, a new user is created>, the signal will run immediately and completely, and the rest of the process will wait until it finishes.
 
